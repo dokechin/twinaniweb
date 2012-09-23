@@ -1,0 +1,159 @@
+[Mon Sep 24 04:56:36 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 04:56:36 2012] [info] Listening at "http://*:3000".
+[Mon Sep 24 04:56:48 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 24 04:56:48 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 04:56:48 2012] [error] Bareword "entries" not allowed while "strict subs" in use at script/../lib/Twinani/Web/Root.pm line 12.
+Compilation failed in require at (eval 246) line 1.
+
+[Mon Sep 24 04:56:48 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 04:56:48 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 04:56:48 2012] [debug] Rendering inline template.
+[Mon Sep 24 04:56:48 2012] [debug] Rendering inline template.
+[Mon Sep 24 04:56:48 2012] [debug] 500 Internal Server Error (0.031315s, 31.934/s).
+[Mon Sep 24 05:00:01 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:00:11 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:00:11 2012] [info] Listening at "http://*:3000".
+[Mon Sep 24 05:00:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 24 05:00:16 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:00:16 2012] [error] Bareword "entries" not allowed while "strict subs" in use at script/../lib/Twinani/Web/Root.pm line 12.
+Compilation failed in require at (eval 246) line 1.
+
+[Mon Sep 24 05:00:16 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:00:16 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:00:16 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:00:16 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:00:16 2012] [debug] 500 Internal Server Error (0.047678s, 20.974/s).
+[Mon Sep 24 05:00:21 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:00:21 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:00:21 2012] [error] Can't locate object method "new" via package "Twinani::DB" (perhaps you forgot to load "Twinani::DB"?) at script/../lib/Twinani/Web.pm line 12.
+
+[Mon Sep 24 05:00:21 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:00:21 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:00:21 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:00:21 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:00:21 2012] [debug] 500 Internal Server Error (0.044193s, 22.628/s).
+[Mon Sep 24 05:00:22 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:00:22 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:00:22 2012] [error] Can't locate object method "new" via package "Twinani::DB" (perhaps you forgot to load "Twinani::DB"?) at script/../lib/Twinani/Web.pm line 12.
+
+[Mon Sep 24 05:00:22 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:00:22 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:00:22 2012] [debug] Rendering cached inline template.
+[Mon Sep 24 05:00:22 2012] [debug] Rendering cached inline template.
+[Mon Sep 24 05:00:22 2012] [debug] 500 Internal Server Error (0.017531s, 57.042/s).
+[Mon Sep 24 05:03:14 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:03:30 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:03:30 2012] [info] Listening at "http://*:3000".
+[Mon Sep 24 05:03:33 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 24 05:03:33 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:03:33 2012] [error] Bareword "entries" not allowed while "strict subs" in use at script/../lib/Twinani/Web/Root.pm line 12.
+Compilation failed in require at (eval 275) line 1.
+
+[Mon Sep 24 05:03:33 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:03:33 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:03:33 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:03:33 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:03:33 2012] [debug] 500 Internal Server Error (0.047066s, 21.247/s).
+[Mon Sep 24 05:04:39 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:04:39 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:04:39 2012] [debug] Rendering template "root/index.html.ep".
+[Mon Sep 24 05:04:39 2012] [error] Template "/home/tetsuya/twinaniweb/templates/root/index.html.ep" has invalid encoding. at /usr/lib/perl5/site_perl/5.14/Mojolicious/Plugin/EPLRenderer.pm line 53.
+
+[Mon Sep 24 05:04:39 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:04:39 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:04:39 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:04:39 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:04:39 2012] [debug] 500 Internal Server Error (0.240191s, 4.163/s).
+[Mon Sep 24 05:05:22 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:05:28 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:05:28 2012] [info] Listening at "http://*:3000".
+[Mon Sep 24 05:05:36 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 24 05:05:36 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:05:36 2012] [error] Bareword "entries" not allowed while "strict subs" in use at script/../lib/Twinani/Web/Root.pm line 12.
+Compilation failed in require at (eval 275) line 1.
+
+[Mon Sep 24 05:05:36 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:05:36 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:05:36 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:05:36 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:05:36 2012] [debug] 500 Internal Server Error (0.041614s, 24.030/s).
+[Mon Sep 24 05:05:40 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:05:40 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:05:40 2012] [debug] Rendering template "root/index.html.ep".
+[Mon Sep 24 05:05:40 2012] [error] Can't use string ("entries") as an ARRAY ref while "strict refs" in use at template "root/index.html.ep" line 4, near "      <div class="entry">".
+1: % layout 'default';
+2: % title 'Twinani';
+3: <h2>一覧</h2>
+4: <% foreach my $entry (@$entries) { %>
+5:       <div class="entry">
+6:         <div>Item: <%= $entry->{item} %> (<%= $entry->{issued_at} %>)</div>
+7:         <div><%= $entry->verb_id %></div>
+8:       <div>
+9:       <hr>
+
+[Mon Sep 24 05:05:40 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:05:40 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:05:40 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:05:40 2012] [debug] Rendering inline template.
+[Mon Sep 24 05:05:40 2012] [debug] 500 Internal Server Error (0.261703s, 3.821/s).
+[Mon Sep 24 05:05:53 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:05:53 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:05:53 2012] [debug] Rendering cached template "root/index.html.ep".
+[Mon Sep 24 05:05:53 2012] [error] Can't use string ("entries") as an ARRAY ref while "strict refs" in use at template "root/index.html.ep" line 4, near "      <div class="entry">".
+1: % layout 'default';
+2: % title 'Twinani';
+3: <h2>一覧</h2>
+4: <% foreach my $entry (@$entries) { %>
+5:       <div class="entry">
+6:         <div>Item: <%= $entry->{item} %> (<%= $entry->{issued_at} %>)</div>
+7:         <div><%= $entry->verb_id %></div>
+8:       <div>
+9:       <hr>
+
+[Mon Sep 24 05:05:53 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 24 05:05:53 2012] [debug] Template "exception.html.ep" not found.
+[Mon Sep 24 05:05:53 2012] [debug] Rendering cached inline template.
+[Mon Sep 24 05:05:53 2012] [debug] Rendering cached inline template.
+[Mon Sep 24 05:05:53 2012] [debug] 500 Internal Server Error (0.017732s, 56.395/s).
+[Mon Sep 24 05:08:04 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:08:27 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:08:34 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:08:34 2012] [info] Listening at "http://*:3000".
+[Mon Sep 24 05:08:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 24 05:08:38 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:08:38 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:08:38 2012] [debug] Rendering template "root/index.html.ep".
+[Mon Sep 24 05:08:38 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 24 05:08:38 2012] [debug] 200 OK (0.239292s, 4.179/s).
+[Mon Sep 24 05:09:15 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Mon Sep 24 05:09:17 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 24 05:09:17 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:09:17 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:09:18 2012] [debug] Rendering template "root/index.html.ep".
+[Mon Sep 24 05:09:18 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 24 05:09:18 2012] [debug] 200 OK (0.248368s, 4.026/s).
+[Mon Sep 24 05:10:41 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:10:41 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:10:41 2012] [debug] Rendering cached template "root/index.html.ep".
+[Mon Sep 24 05:10:41 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep 24 05:10:41 2012] [debug] 200 OK (0.012097s, 82.665/s).
+[Mon Sep 24 05:10:43 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:10:43 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:10:43 2012] [debug] Rendering cached template "root/index.html.ep".
+[Mon Sep 24 05:10:43 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep 24 05:10:43 2012] [debug] 200 OK (0.011919s, 83.900/s).
+[Mon Sep 24 05:10:44 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:10:44 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:10:44 2012] [debug] Rendering cached template "root/index.html.ep".
+[Mon Sep 24 05:10:44 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep 24 05:10:44 2012] [debug] 200 OK (0.012066s, 82.878/s).
+[Mon Sep 24 05:10:47 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:10:47 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:10:47 2012] [debug] Rendering cached template "root/index.html.ep".
+[Mon Sep 24 05:10:47 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep 24 05:10:47 2012] [debug] 200 OK (0.012176s, 82.129/s).
+[Mon Sep 24 05:10:48 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E)).
+[Mon Sep 24 05:10:48 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Mon Sep 24 05:10:48 2012] [debug] Rendering cached template "root/index.html.ep".
+[Mon Sep 24 05:10:48 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep 24 05:10:48 2012] [debug] 200 OK (0.012050s, 82.988/s).

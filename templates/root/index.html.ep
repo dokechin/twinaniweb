@@ -1,0 +1,11 @@
+% layout 'default';
+% title 'Twinani';
+<h2>一覧</h2>
+<% foreach my $entry (@$entries) { %>
+      <div class="entry">
+        <div>Item: <%= $entry->item %> (<%= $entry->issued_at %>)</div>
+        <div><%= $entry->verb_id %></div>
+      <div>
+      <hr>
+<% } %>
+
