@@ -4,7 +4,7 @@ use DateTime::Format::MySQL;
 
 table {
     name 'tweet';
-    columns qw( author item verb_id issued_at );
+    columns qw( author item verb_id content issued_at );
 
     inflate 'issued_at' => sub {
         DateTime::Format::MySQL->parse_datetime(shift);

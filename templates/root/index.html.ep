@@ -1,11 +1,35 @@
 % layout 'default';
 % title 'Twinani';
-<h2>一覧</h2>
-<% foreach my $entry (@$entries) { %>
-      <div class="entry">
-        <div>Item: <%= $entry->item %> (<%= $entry->issued_at %>)</div>
-        <div><%= $entry->verb_id %></div>
-      <div>
-      <hr>
+<div id="header">
+  <div id="title">
+    <h1>Twinani</h1>
+    <p>今何をつぶやいている？</p>
+  </div>
+</div>
+<div class="span-15">
+<ul class='tabs'>
+<% foreach my $navigation (@{$config->{navigations}}) { %>
+  <li>
+  <a <% if ($navigation->{'route'} eq current_route ) { %>class="selected" <% } %> href="<%= url_for($navigation->{'route'}) %>"><%= $navigation->{'item'} %></a></li>
 <% } %>
+</ul>
+<ul class='tabs'>
+<% foreach my $navigation (@{$config->{spans}}) { %>
+  <li>
+  <a <% if ($navigation->{'span'} == $span ) { %>class="selected" <% } %> href="<%= url_for()->query({span => $navigation->{'span'}}) %>"><%= $navigation->{'item'} %></a></li>
+<% } %>
+</ul>
+</div>
+<div id="content" class="span-15">
+<% foreach my $entry (@$entries) { %>
+<div class="entry">
+    <h3><%= $entry->item %>(<%= $entry->name %>)(<%= $entry->count %>)</h3>
+</div>
+<% } %>
+</div>
+<div id="side" class="span-8 last"></div>
+<div id="pager">
+<%= page_navigator( $current_page, $total_pages) %>
+</div>
+
 
