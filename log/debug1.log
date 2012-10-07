@@ -1,0 +1,37 @@
+[Mon Oct  1 03:42:54 2012] [info] Listening at "http://*:3000".
+[Mon Oct  1 03:43:08 2012] [error] Global symbol "$span" requires explicit package name at template "eat/index.html.ep" line 13, near "<% } %>".
+syntax error at template "eat/index.html.ep" line 13, near "<% } %>".
+Global symbol "$span" requires explicit package name at template "eat/index.html.ep" line 19, near "<% } %>".
+Global symbol "$entries" requires explicit package name at template "eat/index.html.ep" line 24, near "<div class="entry">".
+Global symbol "$current_page" requires explicit package name at template "eat/index.html.ep" line 32, near "</div>".
+Global symbol "$total_pages" requires explicit package name at template "eat/index.html.ep" line 32, near "</div>".
+8: </div>
+9: <div class="span-15">
+10: <ul class='tabs'>
+11: <% foreach my $navigation (@{$config->{navigations}}) { %>
+12:   <li>
+13:   <a <% if ($navigation->{'route'} eq current_route ) { %>class="selected" <% } %> href="<%= url_for($navigation->{'route'}->query({span => $span}) %>"><%= $navigation->{'item'} %></a></li>
+14: <% } %>
+15: </ul>
+16: <ul class='tabs'>
+17: <% foreach my $navigation (@{$config->{spans}}) { %>
+18:   <li>
+
+[Mon Oct  1 03:45:09 2012] [error] Global symbol "$span" requires explicit package name at template "eat/index.html.ep" line 13, near "<% } %>".
+syntax error at template "eat/index.html.ep" line 13, near "<% } %>".
+Global symbol "$span" requires explicit package name at template "eat/index.html.ep" line 19, near "<% } %>".
+Global symbol "$entries" requires explicit package name at template "eat/index.html.ep" line 24, near "<div class="entry">".
+Global symbol "$current_page" requires explicit package name at template "eat/index.html.ep" line 32, near "</div>".
+Global symbol "$total_pages" requires explicit package name at template "eat/index.html.ep" line 32, near "</div>".
+8: </div>
+9: <div class="span-15">
+10: <ul class='tabs'>
+11: <% foreach my $navigation (@{$config->{navigations}}) { %>
+12:   <li>
+13:   <a <% if ($navigation->{'route'} eq current_route ) { %>class="selected" <% } %> href="<%= url_for($navigation->{'route'}->query({span => $span}) %>"><%= $navigation->{'item'} %></a></li>
+14: <% } %>
+15: </ul>
+16: <ul class='tabs'>
+17: <% foreach my $navigation (@{$config->{spans}}) { %>
+18:   <li>
+

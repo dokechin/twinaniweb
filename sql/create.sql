@@ -54,9 +54,9 @@ ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
 
-insert into twinani.verb values(1,'買う','(買)|(購入)|(注文)');
-insert into twinani.verb values(2,'食べる','食');
-insert into twinani.verb values(3,'読む','読');
+insert into twinani.verb values(1,'買った','(買)|(購入)|(注文)');
+insert into twinani.verb values(2,'食べた','食');
+insert into twinani.verb values(3,'読んだ','読');
 
 
 

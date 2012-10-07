@@ -18,6 +18,12 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('root#index');
+  $r->get('eat')->to('eat#index');
+  $r->get('buy')->to('buy#index');
+  $r->get('read')->to('read#index');
+  $r->get('look')->to('look#index');
+  $r->get('go')->to('go#index');
+
 }
 
 1;

@@ -3,14 +3,14 @@
 <div id="header">
   <div id="title">
     <h1>Twinani</h1>
-    <p>今何をつぶやいている？</p>
+    <p>今見てる？</p>
   </div>
 </div>
 <div class="span-15">
 <ul class='tabs'>
 <% foreach my $navigation (@{$config->{navigations}}) { %>
   <li>
-  <a <% if ($navigation->{'route'} eq '/' ) { %>class="selected" <% } %> href="<%= url_for($navigation->{'route'})->query({span => $span}) %>"><%= $navigation->{'item'} %></a></li>
+  <a <% if ($navigation->{'route'} eq current_route ) { %>class="selected" <% } %> href="<%= url_for($navigation->{'route'})->query({span => $span}) %>"><%= $navigation->{'item'} %></a></li>
 <% } %>
 </ul>
 <ul class='tabs'>
