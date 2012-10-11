@@ -14,7 +14,7 @@ sub index {
     $span = 1;
   }
 
-  my $dt1 = DateTime->now( time_zone => 'local' )->add( days => 0-$span-10 );
+  my $dt1 = DateTime->now( time_zone => 'local' )->add( days => 0-$span );
   my $dt2 = DateTime->now( time_zone => 'local' );
 
   my ($entries, $pager) = $self->app->db->search_by_sql_abstract_more_with_pager(+{
