@@ -8,7 +8,7 @@ sub startup {
 
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');
-  $self->plugin( 'page_navigator' );
+  $self->plugin( 'Twinani::Plugin::PageNavigator' );
 
   my $config = $self->plugin('Config', { file => 'twinani.conf' }); # ’Ç‰Á
   $self->attr( db => sub { Twinani::DB->new( $config->{db} ) } ); # ’Ç‰Á

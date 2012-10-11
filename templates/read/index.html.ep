@@ -30,7 +30,7 @@
 <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
           created by（<a href="http://twitter.com/dokechin">@dokechin</a>）</div>
 <div id="pager">
-<%= page_navigator( $current_page, $total_pages) %>
+<%= page_navigator( $current_page, $total_pages, {params => {span => $span}}) %>
 </div>
 
 

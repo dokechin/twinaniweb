@@ -564,3 +564,199 @@ Global symbol "$total_pages" requires explicit package name at template "eat/ind
 [Mon Oct  1 04:39:12 2012] [debug] Rendering cached template "buy/index.html.ep".
 [Mon Oct  1 04:39:12 2012] [debug] Rendering cached template "layouts/default.html.ep".
 [Mon Oct  1 04:39:12 2012] [debug] 200 OK (0.080568s, 12.412/s).
+[Fri Oct 12 04:35:40 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 04:35:40 2012] [info] Listening at "http://*:3000".
+[Fri Oct 12 04:35:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 12 04:35:49 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 04:35:49 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 04:35:49 2012] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 12 04:35:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 12 04:35:49 2012] [debug] 200 OK (0.340250s, 2.939/s).
+[Fri Oct 12 04:35:54 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 04:35:54 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 04:35:54 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 04:35:54 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 04:35:54 2012] [debug] 200 OK (0.022668s, 44.115/s).
+[Fri Oct 12 04:35:57 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 04:35:57 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 04:35:57 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 04:35:57 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 04:35:57 2012] [debug] 200 OK (0.179668s, 5.566/s).
+[Fri Oct 12 04:35:59 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 04:35:59 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 04:35:59 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 04:35:59 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 04:35:59 2012] [debug] 200 OK (0.021911s, 45.639/s).
+[Fri Oct 12 04:49:58 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 04:50:04 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 04:50:20 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 04:50:51 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 04:55:44 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 04:58:57 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 04:59:17 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:00:16 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:00:56 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:01:06 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:01:06 2012] [info] Listening at "http://*:3000".
+[Fri Oct 12 05:01:47 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 12 05:01:47 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:01:47 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:01:47 2012] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 12 05:01:47 2012] [error] Can't use string ("params") as a HASH ref while "strict refs" in use at script/../lib/Twinani/Plugin/PageNavigator.pm line 24.
+19:   $app->helper( page_navigator => sub{
+20:       my ( $self, $actual, $count, $opts ) = @_;
+21:       $count = ceil($count);
+22:       return "" unless $count > 1;
+23:       $opts = {} unless $opts;
+24:       my $round = $opts->{round} || 4;
+25:       my $class = $opts->{class} || "number";
+26:       my $param = $opts->{param} || "page";
+27:       my $outer = $opts->{outer} || 2;
+28:       my $params = $opts->{params};
+29:       my @current = ( $actual - $round .. $actual + $round );
+
+[Fri Oct 12 05:01:47 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Oct 12 05:01:47 2012] [debug] Template "exception.html.ep" not found.
+[Fri Oct 12 05:01:47 2012] [debug] Rendering inline template.
+[Fri Oct 12 05:01:47 2012] [debug] Rendering inline template.
+[Fri Oct 12 05:01:47 2012] [debug] 500 Internal Server Error (0.308231s, 3.244/s).
+[Fri Oct 12 05:02:23 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:02:24 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 12 05:02:24 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:02:24 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:02:24 2012] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 12 05:02:24 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 12 05:02:24 2012] [debug] 200 OK (0.270707s, 3.694/s).
+[Fri Oct 12 05:02:28 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:02:28 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:02:28 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 05:02:28 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:02:28 2012] [debug] 200 OK (0.021903s, 45.656/s).
+[Fri Oct 12 05:03:27 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:03:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 12 05:03:28 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:03:28 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:03:28 2012] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 12 05:03:28 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 12 05:03:28 2012] [debug] 200 OK (0.257697s, 3.881/s).
+[Fri Oct 12 05:03:31 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:03:31 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:03:31 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 05:03:31 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:03:31 2012] [debug] 200 OK (0.021747s, 45.983/s).
+[Fri Oct 12 05:03:37 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:03:37 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:03:37 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 05:03:37 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:03:37 2012] [debug] 200 OK (0.022839s, 43.785/s).
+[Fri Oct 12 05:03:40 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:03:40 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:03:40 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 05:03:40 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:03:40 2012] [debug] 200 OK (0.022256s, 44.932/s).
+[Fri Oct 12 05:04:19 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:04:27 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:04:42 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:04:51 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:05:01 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:05:06 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 12 05:05:06 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:05:06 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:05:07 2012] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 12 05:05:07 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 12 05:05:07 2012] [debug] 200 OK (0.436337s, 2.292/s).
+[Fri Oct 12 05:05:11 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:05:11 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:05:11 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 05:05:11 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:05:11 2012] [debug] 200 OK (0.176860s, 5.654/s).
+[Fri Oct 12 05:05:14 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:05:14 2012] [debug] Routing to controller "Twinani::Web::Root" and action "index".
+[Fri Oct 12 05:05:14 2012] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 12 05:05:14 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:05:14 2012] [debug] 200 OK (0.174890s, 5.718/s).
+[Fri Oct 12 05:05:22 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:05:22 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:05:22 2012] [debug] Rendering template "buy/index.html.ep".
+[Fri Oct 12 05:05:22 2012] [error] syntax error at template "buy/index.html.ep" line 33, near "</div>".
+Missing right curly or square bracket at template "buy/index.html.ep" line 34.
+28: <% } %>
+29: </div>
+30: <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
+31:           created by（<a href="http://twitter.com/dokechin">@dokechin</a>）</div>
+32: <div id="pager">
+33: <%= page_navigator( $current_page, $total_pages, {params => {span => $span}) %>
+34: </div>
+
+[Fri Oct 12 05:05:22 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Oct 12 05:05:22 2012] [debug] Template "exception.html.ep" not found.
+[Fri Oct 12 05:05:22 2012] [debug] Rendering inline template.
+[Fri Oct 12 05:05:22 2012] [debug] Rendering inline template.
+[Fri Oct 12 05:05:22 2012] [debug] 500 Internal Server Error (0.101883s, 9.815/s).
+[Fri Oct 12 05:06:17 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:06:17 2012] [info] Listening at "http://*:3000".
+[Fri Oct 12 05:06:26 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 12 05:06:26 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:06:26 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:06:26 2012] [debug] Rendering template "buy/index.html.ep".
+[Fri Oct 12 05:06:26 2012] [error] syntax error at template "buy/index.html.ep" line 33, near "</div>".
+Missing right curly or square bracket at template "buy/index.html.ep" line 34.
+28: <% } %>
+29: </div>
+30: <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
+31:           created by（<a href="http://twitter.com/dokechin">@dokechin</a>）</div>
+32: <div id="pager">
+33: <%= page_navigator( $current_page, $total_pages, {params => {span => $span}) %>
+34: </div>
+
+[Fri Oct 12 05:06:26 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Oct 12 05:06:26 2012] [debug] Template "exception.html.ep" not found.
+[Fri Oct 12 05:06:26 2012] [debug] Rendering inline template.
+[Fri Oct 12 05:06:26 2012] [debug] Rendering inline template.
+[Fri Oct 12 05:06:26 2012] [debug] 500 Internal Server Error (0.288367s, 3.468/s).
+[Fri Oct 12 05:06:59 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:07:06 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:07:13 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:07:24 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:07:36 2012] [debug] Reading config file "/home/tetsuya/twinaniweb/twinani.conf".
+[Fri Oct 12 05:07:43 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 12 05:07:43 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:07:43 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:07:43 2012] [debug] Rendering template "buy/index.html.ep".
+[Fri Oct 12 05:07:43 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 12 05:07:43 2012] [debug] 200 OK (0.265378s, 3.768/s).
+[Fri Oct 12 05:07:45 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:07:45 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:07:45 2012] [debug] Rendering cached template "buy/index.html.ep".
+[Fri Oct 12 05:07:45 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:07:45 2012] [debug] 200 OK (0.061723s, 16.201/s).
+[Fri Oct 12 05:07:47 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:07:47 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:07:47 2012] [debug] Rendering cached template "buy/index.html.ep".
+[Fri Oct 12 05:07:47 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:07:47 2012] [debug] 200 OK (0.058095s, 17.213/s).
+[Fri Oct 12 05:07:49 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:07:49 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:07:49 2012] [debug] Rendering cached template "buy/index.html.ep".
+[Fri Oct 12 05:07:49 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:07:49 2012] [debug] 200 OK (0.058421s, 17.117/s).
+[Fri Oct 12 05:07:51 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:07:51 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:07:52 2012] [debug] Rendering cached template "buy/index.html.ep".
+[Fri Oct 12 05:07:52 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:07:52 2012] [debug] 200 OK (0.059268s, 16.873/s).
+[Fri Oct 12 05:07:53 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:07:53 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:07:53 2012] [debug] Rendering cached template "buy/index.html.ep".
+[Fri Oct 12 05:07:53 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:07:53 2012] [debug] 200 OK (0.016351s, 61.158/s).
+[Fri Oct 12 05:07:57 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:07:57 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:07:57 2012] [debug] Rendering cached template "buy/index.html.ep".
+[Fri Oct 12 05:07:57 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:07:57 2012] [debug] 200 OK (0.015804s, 63.275/s).
+[Fri Oct 12 05:08:00 2012] [debug] GET /buy (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Oct 12 05:08:00 2012] [debug] Routing to controller "Twinani::Web::Buy" and action "index".
+[Fri Oct 12 05:08:00 2012] [debug] Rendering cached template "buy/index.html.ep".
+[Fri Oct 12 05:08:00 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 12 05:08:00 2012] [debug] 200 OK (0.015076s, 66.331/s).
