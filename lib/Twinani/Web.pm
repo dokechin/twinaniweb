@@ -23,6 +23,7 @@ sub startup {
   $r->get('read')->to('read#index');
   $r->get('look')->to('look#index');
   $r->get('go')->to('go#index');
+  $r->get('list')->to('list#index');
 
 }
 

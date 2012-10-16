@@ -23,7 +23,7 @@
 <div id="content" class="span-15">
 <% foreach my $entry (@$entries) { %>
 <div class="entry">
-    <h3><%= $entry->item %>(<%= $entry->name %>)(<%= $entry->count %>)</h3>
+    <h3><a target="blank" href="<%= url_for('list')->query([span => $span, verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)</h3>
 </div>
 <% } %>
 </div>
