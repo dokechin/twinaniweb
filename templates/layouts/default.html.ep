@@ -11,7 +11,28 @@
   <!--[if lt IE 8]>
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection">
   <![endif]-->
+  <script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script>
   <script type="text/javascript">
+
+    $(function(){
+
+//	$('a[href^="/list"]').css('background-color', 'Aqua');
+
+	$('a[href^="/list"]').click(function(){
+		var win = window.open(this.href, 'list');
+		win.focus();
+		return false;
+	});
+
+	$('a[href^="https"]').click(function(){
+		var win = window.open(this.href, 'tweet');
+		win.focus();
+		return false;
+	});
+
+
+    });
+
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-35535708-1']);

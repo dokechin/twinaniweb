@@ -18,7 +18,7 @@ sub index {
   my $dt2 = DateTime->now( time_zone => 'local' );
 
   my ($entries, $pager) = $self->app->db->search_by_sql_abstract_more_with_pager(+{
-    -columns => [qw/t.item v.name count(*)|count t.verb_id/],
+    -columns => [qw/t.item v.name count(*)|count t.verb_id sec_to_time(avg(time_to_sec(t.issued_at)))|avg_time/],
     -from => [
         '-join',
         'tweet|t',
@@ -27,7 +27,9 @@ sub index {
     ],
     -where => +{ 't.issued_at' => 
       +{ 'between' => [ DateTime::Format::MySQL->format_datetime($dt1),
-                        DateTime::Format::MySQL->format_datetime($dt2)  ] }},
+                        DateTime::Format::MySQL->format_datetime($dt2)  ] },
+        't.author' =>  {'not like' => 'FFBATTLE%'},
+                        },
     -group_by => ['t.item','v.name'],
     -order_by => ['count(*) DESC'],
     -page => $page,

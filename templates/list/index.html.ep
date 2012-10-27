@@ -12,13 +12,13 @@
 <% foreach my $entry (@$entries) { %>
 <div class="entry">
 <% (my $author) = split(' ' , $entry->author); %>
-    <h3><a target="blank2" href="https://twitter.com/<%= $author %>"><%= $entry->author %></a><%= $entry->content %>(<%= $entry->issued_at %>)</h3>
+    <h3><a href="https://twitter.com/<%= $author %>"><%= $entry->author %></a><%== $entry->content %>(<%= $entry->issued_at %>)</h3>
 </div>
 <% } %>
 </div>
 <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
           created by（<a href="http://twitter.com/dokechin">@dokechin</a>）</div>
-<div id="pager">
+<div id="pager" class="span-24">
 <%= page_navigator( $current_page, $total_pages, {params => {span => $span, verb_id => $verb_id, item => $item }}) %>
 </div>
 

@@ -3,7 +3,7 @@
 <div id="header">
   <div id="title">
     <h1>Twinani</h1>
-    <p>今何をつぶやいている？</p>
+    <p>いつ何をつぶやいている？</p>
   </div>
 </div>
 <div class="span-15">
@@ -23,13 +23,13 @@
 <div id="content" class="span-15">
 <% foreach my $entry (@$entries) { %>
 <div class="entry">
-    <h3><a target="blank" href="<%= url_for('list')->query([span => $span, verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)</h3>
+    <h3><a href="<%= url_for('list')->query([span => $span, verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)(<%= $entry->avg_time %>)</h3>
 </div>
 <% } %>
 </div>
 <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
           created by（<a href="http://twitter.com/dokechin">@dokechin</a>）</div>
-<div id="pager">
+<div id="pager" class="span-24">
 <%= page_navigator( $current_page, $total_pages, {params => {span => $span}}) %>
 </div>
 
