@@ -3,34 +3,37 @@
 <div id="header">
   <div id="title">
     <h1>Twinani</h1>
-    <p>いつどこ行ってる？</p>
+    <p>いつ何をつぶやいている？</p>
   </div>
 </div>
 <div class="span-15">
 <ul class='tabs'>
-<% foreach my $navigation (@{$config->{navigations}}) { %>
   <li>
-  <a <% if ($navigation->{'route'} eq current_route ) { %>class="selected" <% } %> href="<%= url_for($navigation->{'route'})->query({span => $span}) %>"><%= $navigation->{'item'} %></a></li>
+  <a href="<%= url_for('/') %>"><%= @{$config->{befores}}[0] %></a></li>
+<% foreach my $i ( 0 .. 7) { %>
+  <li>
+  <a <% if ($date_index == $i ) { %>class="selected" <% } %> href="<%= url_for(@$dates[$i]) %>"><%= @{$config->{befores}}[$i+1] %></a></li>
 <% } %>
 </ul>
 <ul class='tabs'>
-<% foreach my $navigation (@{$config->{spans}}) { %>
+<% foreach my $navigation (@{$config->{navigations}}) { %>
   <li>
-  <a <% if ($navigation->{'span'} == $span ) { %>class="selected" <% } %> href="<%= url_for()->query({span => $navigation->{'span'}}) %>"><%= $navigation->{'item'} %></a></li>
+  <a <% if ($navigation->{'route'} eq 'go' ) { %>class="selected" <% } %> href="<%= url_for("/" . $navigation->{'route'} . "/" . @$dates[$date_index]) %>"><%= $navigation->{'item'} %></a></li>
 <% } %>
 </ul>
 </div>
 <div id="content" class="span-15">
 <% foreach my $entry (@$entries) { %>
 <div class="entry">
-    <h3><a href="<%= url_for('list')->query([span => $span, verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)(<%= $entry->avg_time %>)</h3>
+    <h3><a href="<%= url_for('list')->query([verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)(<%= $entry->avg_time %>)</h3>
 </div>
 <% } %>
 </div>
 <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
           created by（<a href="http://twitter.com/dokechin">@dokechin</a>）</div>
-<div id="pager" class="span-24">
-<%= page_navigator( $current_page, $total_pages, {params => {span => $span}}) %>
+<div id="social" class="span-24">
+%== share_button 'twitter',   url => $url, text => 'Twinani';
 </div>
-
-
+<div id="pager" class="span-24">
+<%= page_navigator( $current_page, $total_pages) %>
+</div>

@@ -1,4 +1,4 @@
-package Twinani::Web::Look;
+package Twinani::Web::All;
 use Mojo::Base 'Mojolicious::Controller';
 use DateTime;
 use DateTime::Format::ISO8601;
@@ -37,7 +37,7 @@ sub index {
       }
   }
   if ( $date_index == 7){
-      push ( @dates, $date_from);
+      push ( @dates, $date_from->strftime("%Y%m%d"));
   }
   else{
       push (@dates, "");
@@ -55,8 +55,7 @@ sub index {
       +{ 'between' => [ DateTime::Format::MySQL->format_datetime($date_from),
                         DateTime::Format::MySQL->format_datetime($date_to)  ] },
         't.author' =>  {'not like' => 'FFBATTLE%'},
-        'v.id' => 4,
-               },
+                        },
     -group_by => ['t.item','v.name'],
     -order_by => ['count(*) DESC'],
     -page => $page,
@@ -69,7 +68,7 @@ sub index {
     total_pages => $pager->last_page,
     date_index => $date_index,
     dates => \@dates,
-    url => 'http://twinani.dokechin.com/look/' . $self->param('date'),
+    url => 'http://twinani.dokechin.com/all/' . $self->param('date'),
     );
 }
 
