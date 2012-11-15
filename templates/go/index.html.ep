@@ -24,8 +24,15 @@
 </div>
 <div id="content" class="span-15">
 <% foreach my $entry (@$entries) { %>
+<% my $output = '/list/';
+   $output .= @$dates[$date_index];
+   $output .= '/';
+   $output .= $entry->verb_id;
+   $output .= '/';
+   $output .= $entry->item;
+%>
 <div class="entry">
-    <h3><a href="<%= url_for('list')->query([verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)(<%= $entry->avg_time %>)</h3>
+    <h3><a href="<%= url_for($output) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)(<%= $entry->avg_time %>)</h3>
 </div>
 <% } %>
 </div>

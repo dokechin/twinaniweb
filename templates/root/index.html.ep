@@ -24,9 +24,7 @@
 </div>
 <div id="content" class="span-15">
 <% foreach my $entry (@$entries) { %>
-<div class="entry">
-    <h3><a href="<%= url_for('list')->query([verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)(<%= $entry->avg_time %>)</h3>
-</div>
+<div class="entry">    <h3><a href="<%= url_for('list')->query([verb_id => $entry->verb_id, item => $entry->item ]) %>"><%= $entry->item %></a>(<%= $entry->name %>)(<%= $entry->count %>)(<%= $entry->avg_time %>)</h3></div>
 <% } %>
 </div>
 <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
