@@ -2,6 +2,7 @@ package Twinani::Web::List;
 use Mojo::Base 'Mojolicious::Controller';
 use DateTime;
 use DateTime::Format::ISO8601;
+use utf8;
 
 
 # This action will render a template
@@ -47,7 +48,8 @@ sub index {
     total_pages => $pager->last_page,
     span => $span,
     verb_id => $verb_id,
-    item => $item
+    item => $item,
+    title => '今' . $item . 'を'. $self->app->config->{verb_of}->{$verb_id} . ' - Twinani [ツイナニ]'
     );
 }
 
@@ -107,6 +109,7 @@ sub item {
     verb_id => $verb_id,
     item => $item,
     url => $url,
+    title => $date_from->strftime( "%F" ) . 'に' . $item . 'を'. $self->app->config->{verb_of}->{$verb_id} . ' - Twinani [ツイナニ]'
     );
 }
 

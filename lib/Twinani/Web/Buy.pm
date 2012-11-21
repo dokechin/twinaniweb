@@ -2,6 +2,7 @@ package Twinani::Web::Buy;
 use Mojo::Base 'Mojolicious::Controller';
 use DateTime;
 use DateTime::Format::ISO8601;
+use utf8;
 
 # This action will render a template
 sub index {
@@ -70,6 +71,7 @@ sub index {
     date_index => $date_index,
     dates => \@dates,
     url => 'http://twinani.dokechin.com/buy/' . $self->param('date'),
+    title => $date_from->strftime( "%F" ) . 'に何を'. $self->app->config->{verb_of}->{1} . ' - Twinani [ツイナニ]'
     );
 }
 

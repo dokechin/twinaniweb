@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head prefix="og: http://ogp.me/ns#">
   <title><%= title %></title>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="copyright" content="&copy;dokechin" />
+  <meta property="og:site_name" content="twinani - ‚¢‚Â‰½‚ð‚Â‚Ô‚â‚¢‚½‚Ì‚©‚ð‚Ü‚Æ‚ß‚½ƒTƒCƒg -" />
+  <meta property="og:title" content="<%= title %>" />
+  <link rel="icon" href="/favicon.png" type="image/png">
   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
   <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print"> 
   <link rel="stylesheet" href="/css/blueprint/tabsplugin/screen.css" type="text/css" media="screen,projection"> 

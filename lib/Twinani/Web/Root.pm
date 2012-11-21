@@ -2,6 +2,7 @@ package Twinani::Web::Root;
 use Mojo::Base 'Mojolicious::Controller';
 use DateTime;
 use DateTime::Format::ISO8601;
+use utf8;
 
 # This action will render a template
 sub index {
@@ -13,27 +14,16 @@ sub index {
 
   my $what = $self->param('what') || "all";
 
-  my $verb_id1 = 1;
-  my $verb_id2 = 5;
-  if ($what eq 'buy'){
-      $verb_id1 =1;
-      $verb_id2 =1;
+  my $verb_id1;
+  my $verb_id2;
+
+  if ($what eq 'all') {
+    $verb_id1 = $self->app->config->{verb_id_min};
+    $verb_id2 = $self->app->config->{verb_id_max};
   }
-  if ($what eq 'eat'){
-      $verb_id1 =2;
-      $verb_id2 =2;
-  }
-  if ($what eq 'read'){
-      $verb_id1 =3;
-      $verb_id2 =3;
-  }
-  if ($what eq 'look'){
-      $verb_id1 =4;
-      $verb_id2 =4;
-  }
-  if ($what eq 'go'){
-      $verb_id1 =5;
-      $verb_id2 =5;
+  else{
+    $verb_id1 = $self->app->config->{verb_id_of}->{$what};
+    $verb_id2 = $verb_id1;
   }
 
   my $today = DateTime->today( time_zone => 'local' );
@@ -73,7 +63,8 @@ sub index {
     current_page=> $pager->current_page,
     total_pages => $pager->last_page,
     dates => \@dates,
-    what => $what
+    what => $what,
+    title => '今何をつぶやいてる - Twinani [ツイナニ]'
     );
 }
 

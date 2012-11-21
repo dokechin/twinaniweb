@@ -1,9 +1,8 @@
 % layout 'default';
-% title 'Twinani';
 <div id="header">
   <div id="title">
-    <h1>Twinani</h1>
-    <p>いつ何をつぶやいている？</p>
+    <h1><a href="/">Twinani</a></h1>
+    <p>いつ何を食べた？</p>
   </div>
 </div>
 <div class="span-15">
@@ -37,7 +36,9 @@
 <% } %>
 </div>
 <div id="side" class="span-8 last">Twinani（ツイナニ）は、Twitter上でつぶやかれた動詞に対する目的語を集計してランキングしています。
-          created by（<a href="http://twitter.com/dokechin">@dokechin</a>）</div>
+          created by（<a href="http://twitter.com/dokechin">@dokechin</a>)
+<!-- Rakuten Widget FROM HERE --><script type="text/javascript">rakuten_design="slide";rakuten_affiliateId="086c38c0.378f63e8.086c38c1.5bbdfff5";rakuten_items="ctsmatch";rakuten_genreId=0;rakuten_size="148x600";rakuten_target="_blank";rakuten_theme="gray";rakuten_border="off";rakuten_auto_mode="off";rakuten_genre_title="off";rakuten_recommend="on";</script><script type="text/javascript" src="http://xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js"></script><!-- Rakuten Widget TO HERE -->
+          </div>
 <div id="social" class="span-24">
 %== share_button 'twitter',   url => $url, text => 'Twinani';
 </div>
